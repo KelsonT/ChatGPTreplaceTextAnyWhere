@@ -1,0 +1,5 @@
+<CLIPBOARD COPY/>
+<VARIABLE SET STRING Option="\x02" Destination="%T[1]%" NoEmbeddedVars="FALSE"/>
+<PROGRAM LAUNCH Path="C:\\\\WriteProfessionally.exe" Mode="\x00" Parameters="\"%T[1]%\"" Wait="1" Get_Console="TRUE" Console_Dest="%T[2]%"/>
+<VARIABLE MODIFY STRING Option="\x10" Destination="%T[2]%" NoEmbeddedVars="FALSE"/>
+<CLIPBOARD PASTE/>
