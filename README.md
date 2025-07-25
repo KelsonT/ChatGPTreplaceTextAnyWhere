@@ -5,4 +5,4 @@ Overview: The process operates on my Windows 11 computer as follows:
 3. The copied text is then passed to a Golang script, which completes the API call to ChatGPT.
 4. The returned text is received by the Golang script and passed back to the macro, which then pastes the text.
 
-If implementing this, make sure to change the role, as that is the prompt your heading the the text with. 
+If implementing this, make sure to change the "role", as that is the prompt your heading the the text with. 
