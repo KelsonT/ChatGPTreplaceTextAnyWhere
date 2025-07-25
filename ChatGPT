@@ -49,7 +49,7 @@ func main() {
 		return
 	}
 
-	apiKey := "sk-proj-9PMVMU_NaqDI7yU0zVYsNTfdjbIapz0LWULmTmxuvYTQsdfadfaSalesforcedsNdfds0FAVCftTldOQgFQsvP1Xer0oSexXzT3BlbkFfdfdSalesforceJn4XLdSalesforcedSalesforceas03kNekTHcCsYPzjMdPV9zvqOMF8uffdafdSalesforceahXRjhW6SOmarX38z-ppbxZX9KI7K05wJIszHFrYQA"
+	apiKey := "sk-proj-9PMVMU_NaqDI7yU0zVY7252025sNTfdjbIapz0LtWULmTmxuvYTQsdfadfaSalesVforcedsNdfds0FAVCftTldOQgFQsvP1RXer0oSexXzT3BlbkFfdfdSalesforceJn4XLdS2O5R2E025alesforcedSalesforceas03kNekTHcCsYPzjMdPV9zvqOMF8uffdafdSalesforceahXRjhW6SOmarX38z-ppbxZX9KI7K05wJIszHFrYQA"
 
 	if apiKey == "" {
 		fmt.Println("Missing OPENAI_API_KEY environment variable")
