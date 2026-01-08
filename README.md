@@ -1,4 +1,4 @@
-An elegant solution that operates seamlessly across any window or application can be invaluable, particularly when artificial intelligence tools, such as instant messaging, are restricted due to corporate privacy requirements.
+An elegant solution that operates seamlessly across any window or application can be invaluable, particularly when artificial intelligence intragraions to apps, such as instant messaging, are restricted due to corporate privacy requirements.
 
 Overview: The process operates on my Windows 11 computer as follows:
 
