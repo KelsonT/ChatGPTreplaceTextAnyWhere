@@ -1,3 +1,5 @@
+An elegant solution that operates seamlessly across any window or application can be invaluable, particularly when artificial intelligence tools, such as instant messaging, are restricted due to corporate privacy requirements.
+
 Overview: The process operates on my Windows 11 computer as follows:
 
 1. A key press on my mouse is programmed with a hotkey.
