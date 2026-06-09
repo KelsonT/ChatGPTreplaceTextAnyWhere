@@ -10,4 +10,4 @@ Overview: The process operates on my Windows 11 computer as follows:
 If implementing this, make sure to change the "role", as that is the prompt your heading the the text with. 
 
 
-Update 6/9/2026 - Changed the APIkey & prompt variables to also be present in the macro express script. This adjustment allows for the use of different settings across various macros, enabling easy configuration of different prompts for indiviual use cases. 
+Update 6/9/2026 - Changed the APIkey & prompt variables to also be present in the macro express script. This adjustment allows for the use of different settings across various macros, enabling easy configuration of different prompts for indiviual use cases.  If preferred, you can set the key as a global secret variable.
