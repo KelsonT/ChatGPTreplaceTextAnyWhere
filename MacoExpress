@@ -1,5 +1,8 @@
 <CLIPBOARD COPY/>
 <VARIABLE SET STRING Option="\x02" Destination="%T[1]%" NoEmbeddedVars="FALSE"/>
-<PROGRAM LAUNCH Path="C:\\\\WriteProfessionally.exe" Mode="\x00" Parameters="\"%T[1]%\"" Wait="1" Get_Console="TRUE" Console_Dest="%T[2]%"/>
+<VARIABLE SET STRING Option="\x00" Destination="%T[3]%" Value="Please clean up this text to be intelligent, verbose, and technical. Keep the context the same and focus on grammar and spelling. If the text contains a humorous or sarcastic connotation, preserve a witty tone. Do not reply with quotes or a polite response; simply return the corrected verbiage. Please ensure that words with apostrophes are not returned incorrectly." NoEmbeddedVars="FALSE"/>
+<VARIABLE SET STRING Option="\x00" Destination="%T[4]%" Value="YOUR_OPENAI_API_KEY_HERE" NoEmbeddedVars="FALSE"/>
+<PROGRAM LAUNCH Path="C:\\User\\Documents\\Code\\Golang\\ProfessinalVerbage\\WriteProfessionally.exe" Mode="\x00" Parameters="\"%T[4]%\" \"%T[3]%\" \"%T[1]%\"" Default_Path="TRUE" Wait="1" Get_Console="TRUE" Console_Dest="%T[2]%"/>
 <VARIABLE MODIFY STRING Option="\x10" Destination="%T[2]%" NoEmbeddedVars="FALSE"/>
+<VARIABLE SET STRING Option="\x02" Destination="%T[2]%" NoEmbeddedVars="FALSE"/>
 <CLIPBOARD PASTE/>
